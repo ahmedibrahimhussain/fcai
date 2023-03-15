@@ -53,7 +53,7 @@ class SigninScreen extends StatelessWidget {
                       type: TextInputType.phone,
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return "User Account can not be empty";
+                          return "National id can not be empty";
                         }
                         return null;
                       },
@@ -67,7 +67,7 @@ class SigninScreen extends StatelessWidget {
                       type: TextInputType.phone,
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return "National id can not be empty";
+                          return "Code can not be empty";
                         }
                         return null;
                       },
@@ -81,7 +81,7 @@ class SigninScreen extends StatelessWidget {
                       type: TextInputType.emailAddress,
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return "Code can not be empty";
+                          return "Password can not be empty";
                         }
                         return null;
                       },
